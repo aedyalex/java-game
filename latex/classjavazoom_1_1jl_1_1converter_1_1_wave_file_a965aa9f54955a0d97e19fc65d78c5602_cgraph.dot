@@ -1,0 +1,12 @@
+digraph "javazoom.jl.converter.WaveFile.Close"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="javazoom.jl.converter.Wave\lFile.Close",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="javazoom.jl.converter.Riff\lFile.Backpatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#ac1db110b750e0bd561cbbb70c4ae1025",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="javazoom.jl.converter.Riff\lFile.Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#a2d9f2df252c07962e42d629ca85f02eb",tooltip=" "];
+}

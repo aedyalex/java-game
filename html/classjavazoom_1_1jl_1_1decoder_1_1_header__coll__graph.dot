@@ -1,0 +1,7 @@
+digraph "javazoom.jl.decoder.Header"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Header\n|+ checksum\l+ framesize\l+ nSlots\l+ frequencies\l+ MPEG2_LSF\l+ MPEG25_LSF\l+ MPEG1\l+ STEREO\l+ JOINT_STEREO\l+ DUAL_CHANNEL\l+ SINGLE_CHANNEL\l+ FOURTYFOUR_POINT_ONE\l+ FOURTYEIGHT\l+ THIRTYTWO\l+ bitrates\l+ bitrate_str\l~ h_protection_bit\l~ h_bitrate_index\l~ h_padding_bit\l~ h_mode_extension\l~ h_intensity_stereo\l_bound\l~ h_original\l|+ toString()\l+ version()\l+ layer()\l+ bitrate_index()\l+ sample_frequency()\l+ frequency()\l+ mode()\l+ checksums()\l+ copyright()\l+ original()\land 118 more...\l~ Header()\l~ read_header()\l~ parseVBR()\l~ Header()\l~ read_header()\l~ parseVBR()\l~ Header()\l~ read_header()\l~ parseVBR()\l~ Header()\l~ read_header()\l~ parseVBR()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

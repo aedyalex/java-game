@@ -1,0 +1,127 @@
+\hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy}{}\doxysection{com.\+company.\+Entity.\+Enemies.\+Enemy Class Reference}
+\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy}\index{com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}}
+
+
+Inheritance diagram for com.\+company.\+Entity.\+Enemies.\+Enemy\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+company.\+Entity.\+Enemies.\+Enemy\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a54c8bf83374f9b6d2e5b111c5d065ed1}{Enemy}} (\mbox{\hyperlink{classcom_1_1company_1_1_tile_map_1_1_tile_map}{Tile\+Map}} tm)
+\begin{DoxyCompactList}\small\item\em Constructorul fiecarui inamic seteaza inamicul pe harta si cantintatea de pagube generate jucatorului la atac. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_afac5f59605b81a6c644efc575f43ad24}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_afac5f59605b81a6c644efc575f43ad24}} 
+boolean \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_afac5f59605b81a6c644efc575f43ad24}{is\+Dead}} ()
+\begin{DoxyCompactList}\small\item\em Verifica daca inamicul mai este in viata sau nu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a5724842547cede9954133f5ce59190c7}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a5724842547cede9954133f5ce59190c7}} 
+int \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a5724842547cede9954133f5ce59190c7}{get\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza damage-\/ul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a254458a0564c4131f50a6e2832650fc0}{hit}} (int damage)
+\begin{DoxyCompactList}\small\item\em Aplica paguba din lovitura eroului inamicului si verifica daca acesta a murit, seteaza flagurile flinching si dead corespunzator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_ae417cd3512ccf4d02aed78fe6391ef53}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_ae417cd3512ccf4d02aed78fe6391ef53}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_ae417cd3512ccf4d02aed78fe6391ef53}{update}} ()
+\begin{DoxyCompactList}\small\item\em Metoda update in general actualizeaza entitatea curenta in functie de parametrii din celelalte metode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a6479797da1232ce37789ff38f07a88de}{check\+Attack}} (\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_player}{Player}} p)
+\begin{DoxyCompactList}\small\item\em Metoda verifica daca inamicul a produs daune jucatorului si actualizeaza parametrii pe masura. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_adef27186d830893218f091c745bacdee}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_adef27186d830893218f091c745bacdee}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_adef27186d830893218f091c745bacdee}{Player\+Nearby}} (\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_player}{Player}} p)
+\begin{DoxyCompactList}\small\item\em Seteaza flagul player\+Nearby in functie de pozitia jucatorului relativa la inamic. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a0744ab201418a33fac3d4cfe80541563}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a0744ab201418a33fac3d4cfe80541563}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a0744ab201418a33fac3d4cfe80541563}{Projectile\+Collison}} (\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_player}{Player}} p)
+\begin{DoxyCompactList}\small\item\em Verifica daca jucatorul a fost atins de vreun proiectil(in cazul tunurilor) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a15632af5f7e390ed48eac3bce0cead15}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a15632af5f7e390ed48eac3bce0cead15}} 
+int {\bfseries range\+Of\+Vision} = 400
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a9108f4bbad29b94aceaf13715024a0a7}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a9108f4bbad29b94aceaf13715024a0a7}} 
+int {\bfseries health}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a2c91d5ec8b03613c9badbac5e1e5efc7}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a2c91d5ec8b03613c9badbac5e1e5efc7}} 
+int {\bfseries max\+Health}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_af7a410279df909f25fb1c1eb8474aa84}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_af7a410279df909f25fb1c1eb8474aa84}} 
+boolean {\bfseries dead}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a82fd4cbd727bfbb9be9a5b31189b0158}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a82fd4cbd727bfbb9be9a5b31189b0158}} 
+int {\bfseries damage}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a53d9579268e4129e4f01d9fbd8d03f6f}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a53d9579268e4129e4f01d9fbd8d03f6f}} 
+int {\bfseries attackrange}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_aadd715b20fda3bf51de854ea328d898d}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_aadd715b20fda3bf51de854ea328d898d}} 
+boolean {\bfseries flinching}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_afb5a4076b4ee3431555d2e88e2dd932e}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_afb5a4076b4ee3431555d2e88e2dd932e}} 
+long {\bfseries flinch\+Timer}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_af6af14b5d6b9ee26514f6ab66a53ef56}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_af6af14b5d6b9ee26514f6ab66a53ef56}} 
+boolean {\bfseries finished}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a9e72db93f6dfa9b58dc2831b7946402c}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a9e72db93f6dfa9b58dc2831b7946402c}} 
+boolean {\bfseries player\+Nearby}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a54c8bf83374f9b6d2e5b111c5d065ed1}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a54c8bf83374f9b6d2e5b111c5d065ed1}} 
+\index{com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily com.\+company.\+Entity.\+Enemies.\+Enemy.\+Enemy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1company_1_1_tile_map_1_1_tile_map}{Tile\+Map}}}]{tm }\end{DoxyParamCaption})}
+
+
+
+Constructorul fiecarui inamic seteaza inamicul pe harta si cantintatea de pagube generate jucatorului la atac. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tm} & Reprezinta Tile\+Map ul, harta generata la rulare \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a6479797da1232ce37789ff38f07a88de}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a6479797da1232ce37789ff38f07a88de}} 
+\index{com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}!checkAttack@{checkAttack}}
+\index{checkAttack@{checkAttack}!com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}}
+\doxysubsubsection{\texorpdfstring{checkAttack()}{checkAttack()}}
+{\footnotesize\ttfamily com.\+company.\+Entity.\+Enemies.\+Enemy.\+check\+Attack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_player}{Player}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Metoda verifica daca inamicul a produs daune jucatorului si actualizeaza parametrii pe masura. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Verifica \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a254458a0564c4131f50a6e2832650fc0}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy_a254458a0564c4131f50a6e2832650fc0}} 
+\index{com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}!hit@{hit}}
+\index{hit@{hit}!com.company.Entity.Enemies.Enemy@{com.company.Entity.Enemies.Enemy}}
+\doxysubsubsection{\texorpdfstring{hit()}{hit()}}
+{\footnotesize\ttfamily public void com.\+company.\+Entity.\+Enemies.\+Enemy.\+hit (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Aplica paguba din lovitura eroului inamicului si verifica daca acesta a murit, seteaza flagurile flinching si dead corespunzator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damage} & Valoarea pagubei \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a117d8e6fe90197a217284c645f055f60}{com.\+company.\+Entity.\+Enemies.\+Pig\+King}}, and \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_a97e4311f4e41e4b42f72d608d0c34da5}{com.\+company.\+Entity.\+Enemies.\+Pig}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Entity/\+Enemies/Enemy.\+java\end{DoxyCompactItemize}

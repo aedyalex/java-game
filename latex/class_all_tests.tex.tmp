@@ -1,0 +1,29 @@
+\hypertarget{class_all_tests}{}\doxysection{All\+Tests Class Reference}
+\label{class_all_tests}\index{AllTests@{AllTests}}
+
+
+Collaboration diagram for All\+Tests\+:
+% FIG 0
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_all_tests_ae103628a986bd295353be54bfd3582e9}\label{class_all_tests_ae103628a986bd295353be54bfd3582e9}} 
+static Test {\bfseries suite} ()
+\item 
+\mbox{\Hypertarget{class_all_tests_ae103628a986bd295353be54bfd3582e9}\label{class_all_tests_ae103628a986bd295353be54bfd3582e9}} 
+static Test {\bfseries suite} ()
+\item 
+\mbox{\Hypertarget{class_all_tests_ae103628a986bd295353be54bfd3582e9}\label{class_all_tests_ae103628a986bd295353be54bfd3582e9}} 
+static Test {\bfseries suite} ()
+\item 
+\mbox{\Hypertarget{class_all_tests_ae103628a986bd295353be54bfd3582e9}\label{class_all_tests_ae103628a986bd295353be54bfd3582e9}} 
+static Test {\bfseries suite} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Java\+Layer test suite. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+out/production/\+Joc\+\_\+\+P\+A\+O\+O/\+J\+Layer1.\+0/srctest/All\+Tests.\+java\end{DoxyCompactItemize}

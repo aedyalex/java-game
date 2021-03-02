@@ -1,0 +1,10 @@
+digraph "javazoom.jl.converter.RiffFile.RiffFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="javazoom.jl.converter.Riff\lFile.RiffFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="javazoom.jl.converter.Riff\lFile.FourCC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#a9a918e8cbbdf0d0f1677fab8b6a8613c",tooltip=" "];
+}

@@ -1,0 +1,7 @@
+digraph "javazoom.jl.player.advanced.PlaybackEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.player.advanced.\lPlaybackEvent\n|+ STOPPED\l+ STARTED\l|+ PlaybackEvent()\l+ getId()\l+ setId()\l+ getFrame()\l+ setFrame()\l+ getSource()\l+ setSource()\l+ PlaybackEvent()\l+ getId()\l+ setId()\land 18 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

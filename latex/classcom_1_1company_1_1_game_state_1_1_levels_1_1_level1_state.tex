@@ -1,0 +1,70 @@
+\hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state}{}\doxysection{com.\+company.\+Game\+State.\+Levels.\+Level1\+State Class Reference}
+\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state}\index{com.company.GameState.Levels.Level1State@{com.company.GameState.Levels.Level1State}}
+
+
+Clasa responsabila de gestiunea tuturor mecanismelor din primul nivel.  
+
+
+
+
+Inheritance diagram for com.\+company.\+Game\+State.\+Levels.\+Level1\+State\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+company.\+Game\+State.\+Levels.\+Level1\+State\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af16c32465727d4c0b2fb81a6ed3f3024}{Level1\+State}} (\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager}{Game\+State\+Manager}} gsm)
+\begin{DoxyCompactList}\small\item\em Constructorul clasei. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a264143e80b66cdec41879abc7b66ec66}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a264143e80b66cdec41879abc7b66ec66}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a264143e80b66cdec41879abc7b66ec66}{init}} ()
+\begin{DoxyCompactList}\small\item\em Initializeaza parametrii nivelului\+: background, player, tilemap, hud, door. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a98c2d58ce647c95947bbde1dbb8247c4}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a98c2d58ce647c95947bbde1dbb8247c4}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a98c2d58ce647c95947bbde1dbb8247c4}{update}} ()
+\begin{DoxyCompactList}\small\item\em apeleaza functiile update din celelalte clase care agrega la clasa \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state}{Level1\+State}}. Verifica daca player-\/ul si inamicii sunt in viata, dar si daca s-\/a atins usa \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af9ec3677ed4bd9611d29ccfdddbfad33}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af9ec3677ed4bd9611d29ccfdddbfad33}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af9ec3677ed4bd9611d29ccfdddbfad33}{draw}} (Graphics2D g)
+\begin{DoxyCompactList}\small\item\em Deseneaza componentele primului nivel. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a0a823c5def74cc416a9367255f6f5d96}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a0a823c5def74cc416a9367255f6f5d96}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a0a823c5def74cc416a9367255f6f5d96}{key\+Pressed}} (int k)
+\begin{DoxyCompactList}\small\item\em Semnaleaza un eveniment de tipul apasarii unui buton de la tastatura. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a6a15e41f6ada05fc3dd5376ee7c044d4}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a6a15e41f6ada05fc3dd5376ee7c044d4}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a6a15e41f6ada05fc3dd5376ee7c044d4}{key\+Released}} (int k)
+\begin{DoxyCompactList}\small\item\em Semnaleaza un eveniment de tipul lasarii unui buton deja apasat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a623c2685534fb7a2d0f9dfc48bc53d85}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a623c2685534fb7a2d0f9dfc48bc53d85}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a623c2685534fb7a2d0f9dfc48bc53d85}{audio\+Turn}} (boolean status)
+\begin{DoxyCompactList}\small\item\em Seteaza efectele audio in functie de status. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a3c33b6d76888de9b6b38bb692c14b9cd}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a3c33b6d76888de9b6b38bb692c14b9cd}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_a3c33b6d76888de9b6b38bb692c14b9cd}{save\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Salveaza in baza de date caracteristici ale player-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa responsabila de gestiunea tuturor mecanismelor din primul nivel. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af16c32465727d4c0b2fb81a6ed3f3024}\label{classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state_af16c32465727d4c0b2fb81a6ed3f3024}} 
+\index{com.company.GameState.Levels.Level1State@{com.company.GameState.Levels.Level1State}!Level1State@{Level1State}}
+\index{Level1State@{Level1State}!com.company.GameState.Levels.Level1State@{com.company.GameState.Levels.Level1State}}
+\doxysubsubsection{\texorpdfstring{Level1State()}{Level1State()}}
+{\footnotesize\ttfamily public com.\+company.\+Game\+State.\+Levels.\+Level1\+State.\+Level1\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager}{Game\+State\+Manager}}}]{gsm }\end{DoxyParamCaption})}
+
+
+
+Constructorul clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gsm} & Variablia ce se ocupa cu gestiunea starilor \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 2
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Game\+State/\+Levels/Level1\+State.\+java\end{DoxyCompactItemize}

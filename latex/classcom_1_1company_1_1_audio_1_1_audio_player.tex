@@ -1,0 +1,57 @@
+\hypertarget{classcom_1_1company_1_1_audio_1_1_audio_player}{}\doxysection{com.\+company.\+Audio.\+Audio\+Player Class Reference}
+\label{classcom_1_1company_1_1_audio_1_1_audio_player}\index{com.company.Audio.AudioPlayer@{com.company.Audio.AudioPlayer}}
+
+
+Clasa aceasta ne permite sa rulam continut audio in timpul rularii jocului Metodele acesteia constau in a citi un fisier media, a-\/l rula sau a-\/l opri la nevoie Aceste actiuni sunt sustinute pe baza unui thread dedicat pornirii/opririi mp3-\/urilor.  
+
+
+
+
+Inheritance diagram for com.\+company.\+Audio.\+Audio\+Player\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+company.\+Audio.\+Audio\+Player\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player_ad3b303dbb1912c110fd6ac090dceeb98}{Audio\+Player}} (String s, boolean loop)
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player}{Audio\+Player}} ce seteaza numele fisierului audio si modul de rulare. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_audio_1_1_audio_player_a8a1dd5c5b715f53da13bfec4dc64d09f}\label{classcom_1_1company_1_1_audio_1_1_audio_player_a8a1dd5c5b715f53da13bfec4dc64d09f}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player_a8a1dd5c5b715f53da13bfec4dc64d09f}{run}} ()
+\begin{DoxyCompactList}\small\item\em Metoda run descrie codul executat in paralel de thread-\/ul responsabil cu continutul audio Parametrul loop din contructor este folosit aici pentru a stabili de cate ori se va rula mp3-\/ul. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_audio_1_1_audio_player_abb8b795f3e8c9c2e4c2e047ae4836293}\label{classcom_1_1company_1_1_audio_1_1_audio_player_abb8b795f3e8c9c2e4c2e047ae4836293}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player_abb8b795f3e8c9c2e4c2e047ae4836293}{stop}} ()  throws Interrupted\+Exception
+\begin{DoxyCompactList}\small\item\em Metoda stop opreste clip-\/ul audio pana cand va fi reluat in metoda \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player_a4d815b6d9e06736591a2cc1189c8edbc}{resume()}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_audio_1_1_audio_player_a4d815b6d9e06736591a2cc1189c8edbc}\label{classcom_1_1company_1_1_audio_1_1_audio_player_a4d815b6d9e06736591a2cc1189c8edbc}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player_a4d815b6d9e06736591a2cc1189c8edbc}{resume}} ()
+\begin{DoxyCompactList}\small\item\em Metoda resume reia executia mp3-\/ului, folosita mai ales la setarea Music din Meniul jocului impreuna cu metoda stop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa aceasta ne permite sa rulam continut audio in timpul rularii jocului Metodele acesteia constau in a citi un fisier media, a-\/l rula sau a-\/l opri la nevoie Aceste actiuni sunt sustinute pe baza unui thread dedicat pornirii/opririi mp3-\/urilor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1company_1_1_audio_1_1_audio_player_ad3b303dbb1912c110fd6ac090dceeb98}\label{classcom_1_1company_1_1_audio_1_1_audio_player_ad3b303dbb1912c110fd6ac090dceeb98}} 
+\index{com.company.Audio.AudioPlayer@{com.company.Audio.AudioPlayer}!AudioPlayer@{AudioPlayer}}
+\index{AudioPlayer@{AudioPlayer}!com.company.Audio.AudioPlayer@{com.company.Audio.AudioPlayer}}
+\doxysubsubsection{\texorpdfstring{AudioPlayer()}{AudioPlayer()}}
+{\footnotesize\ttfamily public com.\+company.\+Audio.\+Audio\+Player.\+Audio\+Player (\begin{DoxyParamCaption}\item[{String}]{s,  }\item[{boolean}]{loop }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{classcom_1_1company_1_1_audio_1_1_audio_player}{Audio\+Player}} ce seteaza numele fisierului audio si modul de rulare. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Este un String ce indica numele fisierului audio \\
+\hline
+{\em loop} & Indica modul in care ruleaza fisierul\+: daca ruleaza in bucla infinita atunci va avea valoarea true, pentru rulare o singura data false \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Audio/Audio\+Player.\+java\end{DoxyCompactItemize}

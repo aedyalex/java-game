@@ -1,0 +1,88 @@
+\hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager}{}\doxysection{com.\+company.\+Game\+State.\+Game\+State\+Manager Class Reference}
+\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager}\index{com.company.GameState.GameStateManager@{com.company.GameState.GameStateManager}}
+
+
+Clasa care gestioneaza starile pe parcursul gameplay-\/ului.  
+
+
+
+
+Collaboration diagram for com.\+company.\+Game\+State.\+Game\+State\+Manager\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a626f2719292763d3b7393de7beaa19d8}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a626f2719292763d3b7393de7beaa19d8}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a626f2719292763d3b7393de7beaa19d8}{Game\+State\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Constructorul clasei, initializeaza muzica de fundal si vectorul de stari. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a78ca25a843b40b69b6e5e40c241a0ec8}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a78ca25a843b40b69b6e5e40c241a0ec8}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a78ca25a843b40b69b6e5e40c241a0ec8}{load\+State}} (int state, \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state}{Game\+State}} gs)
+\begin{DoxyCompactList}\small\item\em Incarca o stare noua sau o stare curenta in cauza pauzei \textbackslash{}params state Indicele starii care se incarca \textbackslash{}params gs Starea care se incarca. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a28ab6590aa67efd0ed27b49d7081eace}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a28ab6590aa67efd0ed27b49d7081eace}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a28ab6590aa67efd0ed27b49d7081eace}{set\+State}} (int state, \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state}{Game\+State}} gs)
+\begin{DoxyCompactList}\small\item\em Seteaza starea curenta. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_aeb35576cb998c65a2e69a3cf2c6a8987}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_aeb35576cb998c65a2e69a3cf2c6a8987}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state}{Game\+State}} \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_aeb35576cb998c65a2e69a3cf2c6a8987}{get\+State}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza starea curenta. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a6f5a061f0b1712e666037b37c73aa3d5}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a6f5a061f0b1712e666037b37c73aa3d5}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state}{Game\+State}} \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a6f5a061f0b1712e666037b37c73aa3d5}{get\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Retunrneaza nivelul curent. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a3aae4e240b011ada04fcb5dca2c6cda9}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a3aae4e240b011ada04fcb5dca2c6cda9}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a3aae4e240b011ada04fcb5dca2c6cda9}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a331920817e73560b737efa1882ebda70}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a331920817e73560b737efa1882ebda70}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a331920817e73560b737efa1882ebda70}{draw}} (java.\+awt.\+Graphics2D g)
+\begin{DoxyCompactList}\small\item\em Actualizeaza desenul pe ecran al starii curente. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a08883d3847a0b31b7f193a84f2512dea}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a08883d3847a0b31b7f193a84f2512dea}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a08883d3847a0b31b7f193a84f2512dea}{music\+Turn}} (boolean status)
+\begin{DoxyCompactList}\small\item\em Opreste/\+Porneste muzica. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_ad039b0ba0523c8b6913aa8ef5096f1f4}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_ad039b0ba0523c8b6913aa8ef5096f1f4}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_ad039b0ba0523c8b6913aa8ef5096f1f4}{key\+Pressed}} (int k)
+\begin{DoxyCompactList}\small\item\em Intercepteaza un eveniment de la tastatura, in acest caz apasarea tastei Enter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a7eaea72f0db122d1919c54d9698c20dd}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a7eaea72f0db122d1919c54d9698c20dd}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a7eaea72f0db122d1919c54d9698c20dd}{key\+Released}} (int k)
+\begin{DoxyCompactList}\small\item\em Intercepteaza un evenimentul de lasare a butonului de la tastatura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a668ebbae21f71d2ba6622debcd5ab4e4}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a668ebbae21f71d2ba6622debcd5ab4e4}} 
+static int {\bfseries current\+State}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a1d3102c41e029a38ce6e0c479b0d33b7}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a1d3102c41e029a38ce6e0c479b0d33b7}} 
+static int {\bfseries current\+Level}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a47e8996302196225090ef935dd08708a}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a47e8996302196225090ef935dd08708a}} 
+static final int {\bfseries N\+U\+M\+G\+A\+M\+E\+S\+T\+A\+T\+ES} = 8
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a8c02a1d973a72f8cff552df97fbb9614}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a8c02a1d973a72f8cff552df97fbb9614}} 
+static final int {\bfseries H\+E\+LP} = 3
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_aba2440f1c84f56912c4e8014160f5092}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_aba2440f1c84f56912c4e8014160f5092}} 
+static final int {\bfseries P\+A\+U\+S\+E\+S\+T\+A\+TE} = 4
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_abdae703965b4f9841b01af99282edf94}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_abdae703965b4f9841b01af99282edf94}} 
+static final int {\bfseries S\+E\+T\+T\+I\+N\+G\+S\+T\+A\+TE} = 5
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a8406aed45d6db22f945f75cb646f49fe}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a8406aed45d6db22f945f75cb646f49fe}} 
+static final int {\bfseries G\+A\+M\+E\+O\+V\+E\+R\+S\+T\+A\+TE} = 7
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_ab1e676ab64c169f9f1eaf1225541389f}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_ab1e676ab64c169f9f1eaf1225541389f}} 
+static final int {\bfseries W\+I\+N\+S\+T\+A\+TE} = 6
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a569b5db272e13e50604ed2a31ae4932f}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a569b5db272e13e50604ed2a31ae4932f}} 
+static final int {\bfseries M\+E\+N\+U\+S\+T\+A\+TE} = 0
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_af4a341095f376213405d09cc489212fd}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_af4a341095f376213405d09cc489212fd}} 
+static final int {\bfseries L\+E\+V\+E\+L1\+S\+T\+A\+TE} = 1
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a3ca6ba4776da73d6129d51a430587d8b}\label{classcom_1_1company_1_1_game_state_1_1_game_state_manager_a3ca6ba4776da73d6129d51a430587d8b}} 
+static final int {\bfseries L\+E\+V\+E\+L2\+S\+T\+A\+TE} = 2
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa care gestioneaza starile pe parcursul gameplay-\/ului. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Game\+State/Game\+State\+Manager.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+digraph "javazoom.jl.decoder.OutputChannels"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Output\lChannels\n|+ BOTH_CHANNELS\l+ LEFT_CHANNEL\l+ RIGHT_CHANNEL\l+ DOWNMIX_CHANNELS\l|+ getChannelsOutputCode()\l+ getChannelCount()\l+ equals()\l+ hashCode()\l+ getChannelsOutputCode()\l+ getChannelCount()\l+ equals()\l+ hashCode()\l+ getChannelsOutputCode()\l+ getChannelCount()\land 6 more...\l+ fromInt()\l+ fromInt()\l+ fromInt()\l+ fromInt()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +DOWNMIX\n+BOTH\n+RIGHT\n+LEFT" ,arrowhead="odiamond",fontname="Helvetica"];
+}

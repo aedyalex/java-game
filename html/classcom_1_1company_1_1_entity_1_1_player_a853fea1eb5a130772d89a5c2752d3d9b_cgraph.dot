@@ -1,0 +1,26 @@
+digraph "com.company.Entity.Player.checkInteraction"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.company.Entity.Player.check\lInteraction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Verifica daca jucatorul a interactionat cu cutii si actualizeaza parametrii acestuia."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.company.Entity.MapObject.check\lTileMapCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#ac395afa02cdbb66a8a3bdf632572b583",tooltip="Aceasta metoda este cea care realizeaza calculul efectiv al coliziunilor."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.company.Entity.MapObject.calculate\lCorners",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#af19d3eb264635ab7dc663c429c1fdcbf",tooltip="Calculeaza cele 4 colturi ale obiectului. Calculul coliziunilor se realizeaza pe baza acestora."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.company.TileMap.Tile\lMap.getType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html#ab4c35733a34ec550adb4de5b6ca0fd33",tooltip="Returneaza tipul Tile-ului de pe pozitia (row,col)"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.company.TileMap.Tile.getType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile.html#a4a41de3377983352adc7610932189e33",tooltip="Returneaza tipul Tile-ului."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.company.Entity.MapObject.getdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a8dd33f2ae40e8c2889c29f653c175dbc",tooltip="Returneaza dx."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.company.Entity.MapObject.get\lWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#ad46801a117cec77fdd093d01cb1cbe39",tooltip="Returneaza width."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.company.Entity.MapObject.getx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a5679f566a4c3cf5113c3f1e777a41f5c",tooltip="Returneaza x."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.company.Entity.MapObject.intersects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a55e6fd1d0849e098d4c6b32f1864697a",tooltip="Verifica daca daca doua obiecte s-au intersectat prin intermediul collision box-urilor."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.company.Entity.MapObject.get\lRectangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#ad1692a957c21266a15b897859926163a",tooltip="Returneaza collision box."];
+}

@@ -1,0 +1,12 @@
+digraph "com.company.Entity.Player.checkDoor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.company.Entity.Player.checkDoor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Verifica daca jucatorul se afla langa o usa."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.company.Entity.MapObject.intersects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a55e6fd1d0849e098d4c6b32f1864697a",tooltip="Verifica daca daca doua obiecte s-au intersectat prin intermediul collision box-urilor."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.company.Entity.MapObject.get\lRectangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#ad1692a957c21266a15b897859926163a",tooltip="Returneaza collision box."];
+}

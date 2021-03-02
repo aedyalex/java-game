@@ -1,0 +1,24 @@
+digraph "com.company.Entity.Player.checkAttack"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.company.Entity.Player.check\lAttack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Verifica daca jucatorul a atacat sau a fost atacat."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.company.Entity.Enemies.\lEnemy.getDamage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy.html#a5724842547cede9954133f5ce59190c7",tooltip="Returneaza damage-ul."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.company.Entity.MapObject.getx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a5679f566a4c3cf5113c3f1e777a41f5c",tooltip="Returneaza x."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.company.Entity.Enemies.\lEnemy.hit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy.html#a254458a0564c4131f50a6e2832650fc0",tooltip="Aplica paguba din lovitura eroului inamicului si verifica daca acesta a murit, seteaza flagurile flin..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.company.Entity.Player.hit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#ad5fc6b15de63765c55962bf1e1ddaa70",tooltip="Determina comportamentul jucatorului atunci cand este lovit."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.company.Entity.MapObject.intersects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#a55e6fd1d0849e098d4c6b32f1864697a",tooltip="Verifica daca daca doua obiecte s-au intersectat prin intermediul collision box-urilor."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.company.Entity.MapObject.get\lRectangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html#ad1692a957c21266a15b897859926163a",tooltip="Returneaza collision box."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.company.Entity.Enemies.\lEnemy.ProjectileCollison",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_enemies_1_1_enemy.html#a0744ab201418a33fac3d4cfe80541563",tooltip="Verifica daca jucatorul a fost atins de vreun proiectil(in cazul tunurilor)"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.company.Entity.Player.stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#aa486520ec94e0a3211af21a224d5f942",tooltip="Opreste actiunile jucatorului pana la un nou eveniment."];
+}

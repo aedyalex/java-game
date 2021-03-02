@@ -1,0 +1,15 @@
+digraph "javazoom.jl.decoder.BitstreamException"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Bitstream\lException\n||+ BitstreamException()\l+ BitstreamException()\l+ getErrorCode()\l+ BitstreamException()\l+ BitstreamException()\l+ getErrorCode()\l+ BitstreamException()\l+ BitstreamException()\l+ getErrorCode()\l+ BitstreamException()\l+ BitstreamException()\l+ getErrorCode()\l+ getErrorString()\l+ getErrorString()\l+ getErrorString()\l+ getErrorString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node2 [label="{javazoom.jl.decoder.Java\lLayerException\n||+ JavaLayerException()\l+ JavaLayerException()\l+ JavaLayerException()\l+ getException()\l+ printStackTrace()\l+ printStackTrace()\l+ JavaLayerException()\l+ JavaLayerException()\l+ JavaLayerException()\l+ getException()\land 14 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1decoder_1_1_java_layer_exception.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{Exception\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node4 [label="{javazoom.jl.decoder.Bitstream\lErrors\n|+ UNKNOWN_ERROR\l+ UNKNOWN_SAMPLE_RATE\l+ STREAM_ERROR\l+ UNEXPECTED_EOF\l+ STREAM_EOF\l+ INVALIDFRAME\l+ BITSTREAM_LAST\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacejavazoom_1_1jl_1_1decoder_1_1_bitstream_errors.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node5 [label="{javazoom.jl.decoder.Java\lLayerErrors\n|+ BITSTREAM_ERROR\l+ DECODER_ERROR\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacejavazoom_1_1jl_1_1decoder_1_1_java_layer_errors.html",tooltip=" "];
+}

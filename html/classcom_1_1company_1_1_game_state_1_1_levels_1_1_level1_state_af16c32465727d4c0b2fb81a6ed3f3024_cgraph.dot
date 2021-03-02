@@ -1,0 +1,35 @@
+digraph "com.company.GameState.Levels.Level1State.Level1State"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.company.GameState.Levels.\lLevel1State.Level1State",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Constructorul clasei."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.company.GameState.Levels.\lLevel1State.init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state.html#a264143e80b66cdec41879abc7b66ec66",tooltip="Initializeaza parametrii nivelului: background, player, tilemap, hud, door."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.company.GameState.Player\lSaver.getState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_player_saver.html#af0fcac98fed72cd719e166a3ae0199b4",tooltip="Seteaza starea Playerului."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.company.Entity.Player.get\lHealth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#a47b0f6a74f0057b46a7d6c2bb6c6e636",tooltip="Returneaza health."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.company.Entity.Player.get\lLives",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#a7e732a6ea209c9b84615437ea4fc3b21",tooltip="Returneaza numarul de vieti."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.company.Entity.Player.get\lScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#ad7f3dfbd1d1dce69956320709f4778e2",tooltip="Returneaza score."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.company.Entity.Player.set\lHealth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#ab98870373457c85f90db84379342299e",tooltip="Seteaza health."];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.company.Entity.Player.set\lLives",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#a091e93a05b04c6b87c32f5e13a32b0a5",tooltip="Seteaza numarul de vieti."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.company.Entity.Player.set\lScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html#a382000622848e970cc82ce2f702bf4fb",tooltip="Seteaza score."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.company.TileMap.Tile\lMap.loadMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html#a0cef15ce7b1dfe4142e584053697c84f",tooltip="Incarca fisierul text cu harta in matricea map."];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.company.TileMap.Tile\lMap.loadTiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html#a97cab78ce460980bfdcc71881852e37d",tooltip="incarca tile-urile decupate din tileset in matricea tiles"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.company.TileMap.Tile\lFactory.getTile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_factory.html#a7edb27e79c5522c1fe8ceb3062364eea",tooltip="Metoda care returneaza un Tile in functie de tip."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.company.TileMap.Tile\lMap.setPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html#a0f5d65c29592ce0833f3872648f6a235",tooltip="Seteaza pozitia de la care incepesa se deseneze."];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.company.TileMap.Tile\lMap.setTween",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html#a5c531a6921504a741b7490e756edf986",tooltip="Seteaza tween."];
+}

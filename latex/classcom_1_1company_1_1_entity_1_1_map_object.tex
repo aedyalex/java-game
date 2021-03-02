@@ -1,0 +1,221 @@
+\hypertarget{classcom_1_1company_1_1_entity_1_1_map_object}{}\doxysection{com.\+company.\+Entity.\+Map\+Object Class Reference}
+\label{classcom_1_1company_1_1_entity_1_1_map_object}\index{com.company.Entity.MapObject@{com.company.Entity.MapObject}}
+
+
+Clasa care descrie comportamentul fiecarei entitati in raport cu harta. Orice entitate de pe ecran este derivata din aceasta clasa.  
+
+
+
+
+Inheritance diagram for com.\+company.\+Entity.\+Map\+Object\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+company.\+Entity.\+Map\+Object\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a23b26d2249e15ee7bfaa325109179144}\label{classcom_1_1company_1_1_entity_1_1_map_object_a23b26d2249e15ee7bfaa325109179144}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a23b26d2249e15ee7bfaa325109179144}{Map\+Object}} (\mbox{\hyperlink{classcom_1_1company_1_1_tile_map_1_1_tile_map}{Tile\+Map}} tm)
+\begin{DoxyCompactList}\small\item\em Reprezinta obiectul pe harta si stabileste dimensiunea unui tile. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a55e6fd1d0849e098d4c6b32f1864697a}\label{classcom_1_1company_1_1_entity_1_1_map_object_a55e6fd1d0849e098d4c6b32f1864697a}} 
+boolean \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a55e6fd1d0849e098d4c6b32f1864697a}{intersects}} (\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object}{Map\+Object}} o)
+\begin{DoxyCompactList}\small\item\em Verifica daca daca doua obiecte s-\/au intersectat prin intermediul collision box-\/urilor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ad1692a957c21266a15b897859926163a}\label{classcom_1_1company_1_1_entity_1_1_map_object_ad1692a957c21266a15b897859926163a}} 
+Rectangle \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_ad1692a957c21266a15b897859926163a}{get\+Rectangle}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza collision box. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af19d3eb264635ab7dc663c429c1fdcbf}\label{classcom_1_1company_1_1_entity_1_1_map_object_af19d3eb264635ab7dc663c429c1fdcbf}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_af19d3eb264635ab7dc663c429c1fdcbf}{calculate\+Corners}} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Calculeaza cele 4 colturi ale obiectului. Calculul coliziunilor se realizeaza pe baza acestora. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ac395afa02cdbb66a8a3bdf632572b583}\label{classcom_1_1company_1_1_entity_1_1_map_object_ac395afa02cdbb66a8a3bdf632572b583}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_ac395afa02cdbb66a8a3bdf632572b583}{check\+Tile\+Map\+Collision}} ()
+\begin{DoxyCompactList}\small\item\em Aceasta metoda este cea care realizeaza calculul efectiv al coliziunilor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a5679f566a4c3cf5113c3f1e777a41f5c}{getx}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza x. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a7954dc8e0f5b9d35a9a6bc5f3e99ff84}\label{classcom_1_1company_1_1_entity_1_1_map_object_a7954dc8e0f5b9d35a9a6bc5f3e99ff84}} 
+int {\bfseries gety} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a8dd33f2ae40e8c2889c29f653c175dbc}\label{classcom_1_1company_1_1_entity_1_1_map_object_a8dd33f2ae40e8c2889c29f653c175dbc}} 
+double \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a8dd33f2ae40e8c2889c29f653c175dbc}{getdx}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza dx. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ad46801a117cec77fdd093d01cb1cbe39}\label{classcom_1_1company_1_1_entity_1_1_map_object_ad46801a117cec77fdd093d01cb1cbe39}} 
+int \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_ad46801a117cec77fdd093d01cb1cbe39}{get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza width. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a0831e6b4059a6e7b8a447462ec8331d4}{get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza height. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af9d4c73a32022036140ee6da62e3203d}\label{classcom_1_1company_1_1_entity_1_1_map_object_af9d4c73a32022036140ee6da62e3203d}} 
+void {\bfseries set\+Position} (double x, double y)
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ac2acd51f0dfabf47af5f49c7dcacaf09}\label{classcom_1_1company_1_1_entity_1_1_map_object_ac2acd51f0dfabf47af5f49c7dcacaf09}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_ac2acd51f0dfabf47af5f49c7dcacaf09}{set\+Map\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Seteaza pozitia pe harta a obiectului(pozitia reala). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a923e935061037367738e067c78051f14}{set\+Left}} (boolean b)
+\begin{DoxyCompactList}\small\item\em Seteaza flag-\/ul left. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a9adec153fc691640b631b96f303f2169}\label{classcom_1_1company_1_1_entity_1_1_map_object_a9adec153fc691640b631b96f303f2169}} 
+void {\bfseries set\+Right} (boolean b)
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a2f4c4b3624749340cbcbb4423ae05ee9}\label{classcom_1_1company_1_1_entity_1_1_map_object_a2f4c4b3624749340cbcbb4423ae05ee9}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a2f4c4b3624749340cbcbb4423ae05ee9}{set\+Jumping}} (boolean b)
+\begin{DoxyCompactList}\small\item\em Seteaza flag-\/ul jumping. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af89bb9fbb26ef028ffb3cef32dd8f940}\label{classcom_1_1company_1_1_entity_1_1_map_object_af89bb9fbb26ef028ffb3cef32dd8f940}} 
+boolean \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_af89bb9fbb26ef028ffb3cef32dd8f940}{not\+On\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Verifica daca obiectul se afla pe ecran. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a7d2b0e8b1eeb54d78ce64314b0c058ff}\label{classcom_1_1company_1_1_entity_1_1_map_object_a7d2b0e8b1eeb54d78ce64314b0c058ff}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_map_object_a7d2b0e8b1eeb54d78ce64314b0c058ff}{draw}} (java.\+awt.\+Graphics2D g)
+\begin{DoxyCompactList}\small\item\em Deseneaza obiectul pe ecran corespunzator cu flagul facing\+Right si respectand coliziunile. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a0b8050750bd3bb048e8575f37c639b16}\label{classcom_1_1company_1_1_entity_1_1_map_object_a0b8050750bd3bb048e8575f37c639b16}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_tile_map_1_1_tile_map}{Tile\+Map}} {\bfseries tile\+Map}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af3f5fab3d2dff86fb1e33dbf5dd3199b}\label{classcom_1_1company_1_1_entity_1_1_map_object_af3f5fab3d2dff86fb1e33dbf5dd3199b}} 
+int {\bfseries tile\+Size}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ac90d98f055200ebb15e27fc0af6233da}\label{classcom_1_1company_1_1_entity_1_1_map_object_ac90d98f055200ebb15e27fc0af6233da}} 
+double {\bfseries xmap}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ad976aeaaccb0e2e3445647872309a7bb}\label{classcom_1_1company_1_1_entity_1_1_map_object_ad976aeaaccb0e2e3445647872309a7bb}} 
+double {\bfseries ymap}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_afbff00857d4413b183f33af060296171}\label{classcom_1_1company_1_1_entity_1_1_map_object_afbff00857d4413b183f33af060296171}} 
+double {\bfseries x}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ac9290ebe81d0d6177eb82c83358d1b9e}\label{classcom_1_1company_1_1_entity_1_1_map_object_ac9290ebe81d0d6177eb82c83358d1b9e}} 
+double {\bfseries y}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a708397bfbbc435a2430abf6e6fa6b417}\label{classcom_1_1company_1_1_entity_1_1_map_object_a708397bfbbc435a2430abf6e6fa6b417}} 
+double {\bfseries dx}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_aabdf8bb577c12fd6d35f0e9e3f271085}\label{classcom_1_1company_1_1_entity_1_1_map_object_aabdf8bb577c12fd6d35f0e9e3f271085}} 
+double {\bfseries dy}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ab5715994f0ab8df117547078b46e2a13}\label{classcom_1_1company_1_1_entity_1_1_map_object_ab5715994f0ab8df117547078b46e2a13}} 
+int {\bfseries width}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a32f0644b6cd402c8d994e96e17b83f7b}\label{classcom_1_1company_1_1_entity_1_1_map_object_a32f0644b6cd402c8d994e96e17b83f7b}} 
+int {\bfseries height}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a718cb4070352de6806e2ccf5e425234a}\label{classcom_1_1company_1_1_entity_1_1_map_object_a718cb4070352de6806e2ccf5e425234a}} 
+int {\bfseries cwidth}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a04fcd02699077d55646ff054d984f5be}\label{classcom_1_1company_1_1_entity_1_1_map_object_a04fcd02699077d55646ff054d984f5be}} 
+int {\bfseries cheight}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a65c8804dc8a8c18e3e2108444bfbc0c8}\label{classcom_1_1company_1_1_entity_1_1_map_object_a65c8804dc8a8c18e3e2108444bfbc0c8}} 
+int {\bfseries curr\+Row}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ada7d790d145c159c5dba8459989bb10c}\label{classcom_1_1company_1_1_entity_1_1_map_object_ada7d790d145c159c5dba8459989bb10c}} 
+int {\bfseries curr\+Col}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a6f510d2c523a758e4e6321292cfebbd8}\label{classcom_1_1company_1_1_entity_1_1_map_object_a6f510d2c523a758e4e6321292cfebbd8}} 
+double {\bfseries xdest}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ab1c1a73fba64692f281759f498329f6c}\label{classcom_1_1company_1_1_entity_1_1_map_object_ab1c1a73fba64692f281759f498329f6c}} 
+double {\bfseries ydest}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ae0ba265e1eec14fd2b306b24c2471806}\label{classcom_1_1company_1_1_entity_1_1_map_object_ae0ba265e1eec14fd2b306b24c2471806}} 
+double {\bfseries xtemp}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ae2538031d5f9b02ca87a543e1c3faaa1}\label{classcom_1_1company_1_1_entity_1_1_map_object_ae2538031d5f9b02ca87a543e1c3faaa1}} 
+double {\bfseries ytemp}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a9101e021076442f0bf81ad25405c86e1}\label{classcom_1_1company_1_1_entity_1_1_map_object_a9101e021076442f0bf81ad25405c86e1}} 
+boolean {\bfseries top\+Left}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_aaf8fbe394b7a0a274a036fd6743e8d99}\label{classcom_1_1company_1_1_entity_1_1_map_object_aaf8fbe394b7a0a274a036fd6743e8d99}} 
+boolean {\bfseries top\+Right}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ad2ffc7ffb290e11ff09947b7347201d6}\label{classcom_1_1company_1_1_entity_1_1_map_object_ad2ffc7ffb290e11ff09947b7347201d6}} 
+boolean {\bfseries bottom\+Left}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_aa3120c94a202df8f5e217e2837a42a56}\label{classcom_1_1company_1_1_entity_1_1_map_object_aa3120c94a202df8f5e217e2837a42a56}} 
+boolean {\bfseries bottom\+Right}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a626541a844dad4e0fda21341b96c6ed0}\label{classcom_1_1company_1_1_entity_1_1_map_object_a626541a844dad4e0fda21341b96c6ed0}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_animation}{Animation}} {\bfseries animation}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a4b3ee0482bab138ab0948457805dbc05}\label{classcom_1_1company_1_1_entity_1_1_map_object_a4b3ee0482bab138ab0948457805dbc05}} 
+int {\bfseries current\+Action}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a4217ea5e3ceeafc97d4c14e0d5ef372e}\label{classcom_1_1company_1_1_entity_1_1_map_object_a4217ea5e3ceeafc97d4c14e0d5ef372e}} 
+boolean {\bfseries facing\+Right}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_adcbf419ce9d65d7f3bdd1b4393fca878}\label{classcom_1_1company_1_1_entity_1_1_map_object_adcbf419ce9d65d7f3bdd1b4393fca878}} 
+boolean {\bfseries left}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a8f2cbb21f94c95bb6897ab7caf65be82}\label{classcom_1_1company_1_1_entity_1_1_map_object_a8f2cbb21f94c95bb6897ab7caf65be82}} 
+boolean {\bfseries right}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a98cb90da3ea52901b52f55c040953867}\label{classcom_1_1company_1_1_entity_1_1_map_object_a98cb90da3ea52901b52f55c040953867}} 
+boolean {\bfseries jumping}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a92eaed2e72ed6a7be82f1a2dbfbcf9b6}\label{classcom_1_1company_1_1_entity_1_1_map_object_a92eaed2e72ed6a7be82f1a2dbfbcf9b6}} 
+boolean {\bfseries falling}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ae2e055cbbe3644d9d45f63147a3b804d}\label{classcom_1_1company_1_1_entity_1_1_map_object_ae2e055cbbe3644d9d45f63147a3b804d}} 
+boolean {\bfseries is\+Hit}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af9ee246c3d92500ea4e257f1c02efda0}\label{classcom_1_1company_1_1_entity_1_1_map_object_af9ee246c3d92500ea4e257f1c02efda0}} 
+double {\bfseries move\+Speed}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ae9cc4942347ad3e5f71387c479a278de}\label{classcom_1_1company_1_1_entity_1_1_map_object_ae9cc4942347ad3e5f71387c479a278de}} 
+double {\bfseries max\+Speed}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a058cb0c82b1776ae73c932e820edad10}\label{classcom_1_1company_1_1_entity_1_1_map_object_a058cb0c82b1776ae73c932e820edad10}} 
+double {\bfseries stop\+Speed}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_af7679024f4245afca81016f7e7e81c8b}\label{classcom_1_1company_1_1_entity_1_1_map_object_af7679024f4245afca81016f7e7e81c8b}} 
+double {\bfseries fall\+Speed}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_acea74eeef1ee77986fe8b9acf0dea3c0}\label{classcom_1_1company_1_1_entity_1_1_map_object_acea74eeef1ee77986fe8b9acf0dea3c0}} 
+double {\bfseries max\+Fall\+Speed}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_ab22c82d111d4ef257e2ff11cf5fc6e4b}\label{classcom_1_1company_1_1_entity_1_1_map_object_ab22c82d111d4ef257e2ff11cf5fc6e4b}} 
+double {\bfseries jump\+Start}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_afac5ea501b29636c165dff02d8002c29}\label{classcom_1_1company_1_1_entity_1_1_map_object_afac5ea501b29636c165dff02d8002c29}} 
+double {\bfseries stop\+Jump\+Speed}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa care descrie comportamentul fiecarei entitati in raport cu harta. Orice entitate de pe ecran este derivata din aceasta clasa. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a0831e6b4059a6e7b8a447462ec8331d4}\label{classcom_1_1company_1_1_entity_1_1_map_object_a0831e6b4059a6e7b8a447462ec8331d4}} 
+\index{com.company.Entity.MapObject@{com.company.Entity.MapObject}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!com.company.Entity.MapObject@{com.company.Entity.MapObject}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int com.\+company.\+Entity.\+Map\+Object.\+get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza height. 
+
+Returneaza pozitia(x si y). \mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a5679f566a4c3cf5113c3f1e777a41f5c}\label{classcom_1_1company_1_1_entity_1_1_map_object_a5679f566a4c3cf5113c3f1e777a41f5c}} 
+\index{com.company.Entity.MapObject@{com.company.Entity.MapObject}!getx@{getx}}
+\index{getx@{getx}!com.company.Entity.MapObject@{com.company.Entity.MapObject}}
+\doxysubsubsection{\texorpdfstring{getx()}{getx()}}
+{\footnotesize\ttfamily public int com.\+company.\+Entity.\+Map\+Object.\+getx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza x. 
+
+Returneaza y. \mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_map_object_a923e935061037367738e067c78051f14}\label{classcom_1_1company_1_1_entity_1_1_map_object_a923e935061037367738e067c78051f14}} 
+\index{com.company.Entity.MapObject@{com.company.Entity.MapObject}!setLeft@{setLeft}}
+\index{setLeft@{setLeft}!com.company.Entity.MapObject@{com.company.Entity.MapObject}}
+\doxysubsubsection{\texorpdfstring{setLeft()}{setLeft()}}
+{\footnotesize\ttfamily public void com.\+company.\+Entity.\+Map\+Object.\+set\+Left (\begin{DoxyParamCaption}\item[{boolean}]{b }\end{DoxyParamCaption})}
+
+
+
+Seteaza flag-\/ul left. 
+
+Seteaza flag-\/ul right. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Entity/Map\+Object.\+java\end{DoxyCompactItemize}

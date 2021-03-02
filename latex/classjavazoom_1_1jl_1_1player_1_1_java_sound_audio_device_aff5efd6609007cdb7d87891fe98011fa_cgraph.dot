@@ -1,0 +1,26 @@
+digraph "javazoom.jl.player.JavaSoundAudioDevice.test"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="javazoom.jl.player.JavaSound\lAudioDevice.test",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="javazoom.jl.player.Audio\lDeviceBase.close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a5197da50a795d2079b639cc6f1ff0728",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="javazoom.jl.player.Audio\lDeviceBase.closeImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a3cbc63ab786dedb92755e89eb4b09c0e",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="javazoom.jl.player.Audio\lDeviceBase.isOpen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a217b7e13b563be61aa1b9365e3419b04",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="javazoom.jl.player.Audio\lDeviceBase.setOpen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#af12679631ee770c66d50d5532bc80c0d",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="javazoom.jl.player.Audio\lDeviceBase.flush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a351b02d47abefd59166f2d7ff9574992",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="javazoom.jl.player.Audio\lDeviceBase.flushImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a7e95b561fc5a7205fcb35a5c3424f838",tooltip=" "];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="javazoom.jl.player.Audio\lDeviceBase.write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#ae7b613bb4c996fd5819d8cab3f1b82c4",tooltip=" "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="javazoom.jl.player.Audio\lDeviceBase.writeImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1_audio_device_base.html#a4999ed99961592e33a8ca126477357ff",tooltip=" "];
+}

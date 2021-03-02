@@ -1,0 +1,10 @@
+digraph "javazoom.jl.player.advanced.AdvancedPlayer.decodeFrame"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="javazoom.jl.player.advanced.\lAdvancedPlayer.decodeFrame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="javazoom.jl.player.Audio\lDevice.write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacejavazoom_1_1jl_1_1player_1_1_audio_device.html#a5e3f4e6b862a89b2bb948222d2ee6a74",tooltip=" "];
+}

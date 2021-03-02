@@ -1,0 +1,200 @@
+\hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory}{}\doxysection{javazoom.\+jl.\+player.\+Audio\+Device\+Factory Class Reference}
+\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory}\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+
+
+Inheritance diagram for javazoom.\+jl.\+player.\+Audio\+Device\+Factory\+:
+% FIG 0
+
+
+Collaboration diagram for javazoom.\+jl.\+player.\+Audio\+Device\+Factory\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}{create\+Audio\+Device}} ()  throws Java\+Layer\+Exception
+\item 
+abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}{create\+Audio\+Device}} ()  throws Java\+Layer\+Exception
+\item 
+abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}{create\+Audio\+Device}} ()  throws Java\+Layer\+Exception
+\item 
+abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}{create\+Audio\+Device}} ()  throws Java\+Layer\+Exception
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}{instantiate}} (Class\+Loader loader, String name)  throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception 	
+\item 
+\mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}{instantiate}} (Class\+Loader loader, String name)  throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception 	
+\item 
+\mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}{instantiate}} (Class\+Loader loader, String name)  throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception 	
+\item 
+\mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}{instantiate}} (Class\+Loader loader, String name)  throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception 	
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An {\ttfamily \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory}{Audio\+Device\+Factory}}} class is responsible for creating a specific {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}} implementation. A factory implementation can be as simple or complex as desired and may support just one implementation or may return several implementations depending upon the execution environment. 
+
+When implementing a factory that provides an \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} that uses class that may not be present, the factory should dynamically link to any specific implementation classes required to instantiate or test the audio implementation. This is so that the application as a whole can run without these classes being present. The audio device implementation, however, will usually statically link to the classes required. (See the Java\+Sound deivce and factory for an example of this.)
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry}{Factory\+Registry}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+0.\+0.\+8 
+\end{DoxySince}
+\begin{DoxyAuthor}{Author}
+Mat Mc\+Gowan 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!createAudioDevice@{createAudioDevice}}
+\index{createAudioDevice@{createAudioDevice}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{createAudioDevice()}{createAudioDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+create\+Audio\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classjavazoom_1_1jl_1_1decoder_1_1_java_layer_exception}{Java\+Layer\+Exception}}\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Creates a new {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}.
+
+\begin{DoxyReturn}{Returns}
+a new instance of a specific class of {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Java\+Layer\+Exception} & if an instance of \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} could not be created. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, and \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}.
+
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!createAudioDevice@{createAudioDevice}}
+\index{createAudioDevice@{createAudioDevice}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{createAudioDevice()}{createAudioDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+create\+Audio\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classjavazoom_1_1jl_1_1decoder_1_1_java_layer_exception}{Java\+Layer\+Exception}}\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Creates a new {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}.
+
+\begin{DoxyReturn}{Returns}
+a new instance of a specific class of {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Java\+Layer\+Exception} & if an instance of \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} could not be created. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, and \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}.
+
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!createAudioDevice@{createAudioDevice}}
+\index{createAudioDevice@{createAudioDevice}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{createAudioDevice()}{createAudioDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+create\+Audio\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classjavazoom_1_1jl_1_1decoder_1_1_java_layer_exception}{Java\+Layer\+Exception}}\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Creates a new {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}.
+
+\begin{DoxyReturn}{Returns}
+a new instance of a specific class of {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Java\+Layer\+Exception} & if an instance of \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} could not be created. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, and \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}.
+
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_abebb27927d12a95f1dc2a7d73c67d34e}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!createAudioDevice@{createAudioDevice}}
+\index{createAudioDevice@{createAudioDevice}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{createAudioDevice()}{createAudioDevice()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+create\+Audio\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classjavazoom_1_1jl_1_1decoder_1_1_java_layer_exception}{Java\+Layer\+Exception}}\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Creates a new {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}.
+
+\begin{DoxyReturn}{Returns}
+a new instance of a specific class of {\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}}}. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Java\+Layer\+Exception} & if an instance of \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} could not be created. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_factory_registry_adee2919a1ba3ae17a9c627a16cc2fa57}{javazoom.\+jl.\+player.\+Factory\+Registry}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}, and \mbox{\hyperlink{classjavazoom_1_1jl_1_1player_1_1_java_sound_audio_device_factory_abe5d275dfec4ff040c888c2d5cdd1370}{javazoom.\+jl.\+player.\+Java\+Sound\+Audio\+Device\+Factory}}.
+
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!instantiate@{instantiate}}
+\index{instantiate@{instantiate}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{instantiate()}{instantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+instantiate (\begin{DoxyParamCaption}\item[{Class\+Loader}]{loader,  }\item[{String}]{name }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates an instance of an \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} implementation. 
+\begin{DoxyParams}{Parameters}
+{\em loader} & The {\ttfamily Class\+Loader} to use to load the named class, or null to use the system class loader. \\
+\hline
+{\em name} & The name of the class to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A newly-\/created instance of the audio device class. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!instantiate@{instantiate}}
+\index{instantiate@{instantiate}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{instantiate()}{instantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+instantiate (\begin{DoxyParamCaption}\item[{Class\+Loader}]{loader,  }\item[{String}]{name }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates an instance of an \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} implementation. 
+\begin{DoxyParams}{Parameters}
+{\em loader} & The {\ttfamily Class\+Loader} to use to load the named class, or null to use the system class loader. \\
+\hline
+{\em name} & The name of the class to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A newly-\/created instance of the audio device class. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!instantiate@{instantiate}}
+\index{instantiate@{instantiate}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{instantiate()}{instantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+instantiate (\begin{DoxyParamCaption}\item[{Class\+Loader}]{loader,  }\item[{String}]{name }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates an instance of an \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} implementation. 
+\begin{DoxyParams}{Parameters}
+{\em loader} & The {\ttfamily Class\+Loader} to use to load the named class, or null to use the system class loader. \\
+\hline
+{\em name} & The name of the class to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A newly-\/created instance of the audio device class. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}\label{classjavazoom_1_1jl_1_1player_1_1_audio_device_factory_a950be4d41cf1be55087cd29745a851c1}} 
+\index{javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}!instantiate@{instantiate}}
+\index{instantiate@{instantiate}!javazoom.jl.player.AudioDeviceFactory@{javazoom.jl.player.AudioDeviceFactory}}
+\doxysubsubsection{\texorpdfstring{instantiate()}{instantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} javazoom.\+jl.\+player.\+Audio\+Device\+Factory.\+instantiate (\begin{DoxyParamCaption}\item[{Class\+Loader}]{loader,  }\item[{String}]{name }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception,  			   Illegal\+Access\+Exception,  			   Instantiation\+Exception\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates an instance of an \mbox{\hyperlink{interfacejavazoom_1_1jl_1_1player_1_1_audio_device}{Audio\+Device}} implementation. 
+\begin{DoxyParams}{Parameters}
+{\em loader} & The {\ttfamily Class\+Loader} to use to load the named class, or null to use the system class loader. \\
+\hline
+{\em name} & The name of the class to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A newly-\/created instance of the audio device class. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+out/production/\+Joc\+\_\+\+P\+A\+O\+O/\+J\+Layer1.\+0/src/javazoom/jl/player/Audio\+Device\+Factory.\+java\end{DoxyCompactItemize}

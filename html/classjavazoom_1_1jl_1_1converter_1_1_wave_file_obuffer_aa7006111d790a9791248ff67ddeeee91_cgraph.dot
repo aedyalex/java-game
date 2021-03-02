@@ -1,0 +1,18 @@
+digraph "javazoom.jl.converter.WaveFileObuffer.WaveFileObuffer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="javazoom.jl.converter.Wave\lFileObuffer.WaveFileObuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="javazoom.jl.converter.Wave\lFile.OpenForWrite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_wave_file.html#ab967557a1b2f5d7dc3bf5b18f6cd4945",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="javazoom.jl.converter.Wave\lFile.CurrentFilePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_wave_file.html#a4d61f9ca4afa3b755e422523f868c270",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="javazoom.jl.converter.Riff\lFile.Open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#ab893e5a3e176f3774ba3be1295a7ef6b",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="javazoom.jl.converter.Riff\lFile.Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#a09487c65f47a30fbdfc29a67de0a7e4d",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="javazoom.jl.converter.Riff\lFile.Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html#a2d9f2df252c07962e42d629ca85f02eb",tooltip=" "];
+}

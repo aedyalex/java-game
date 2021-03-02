@@ -1,0 +1,13 @@
+digraph "javazoom.jl.decoder.DecoderErrors"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Decoder\lErrors\n|+ UNKNOWN_ERROR\l+ UNSUPPORTED_LAYER\l+ ILLEGAL_SUBBAND_ALLOCATION\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node2 [label="{javazoom.jl.decoder.Java\lLayerErrors\n|+ BITSTREAM_ERROR\l+ DECODER_ERROR\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacejavazoom_1_1jl_1_1decoder_1_1_java_layer_errors.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{javazoom.jl.decoder.Decoder\n||+ Decoder()\l+ Decoder()\l+ setEqualizer()\l+ decodeFrame()\l+ setOutputBuffer()\l+ getOutputFrequency()\l+ getOutputChannels()\l+ getOutputBlockSize()\l+ Decoder()\l+ Decoder()\land 22 more...\l+ getDefaultParams()\l+ getDefaultParams()\l+ getDefaultParams()\l+ getDefaultParams()\l# newDecoderException()\l# newDecoderException()\l# retrieveDecoder()\l# newDecoderException()\l# newDecoderException()\l# retrieveDecoder()\l# newDecoderException()\l# newDecoderException()\l# retrieveDecoder()\l# newDecoderException()\l# newDecoderException()\l# retrieveDecoder()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1decoder_1_1_decoder.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node4 [label="{javazoom.jl.decoder.Decoder\lException\n||+ DecoderException()\l+ DecoderException()\l+ getErrorCode()\l+ DecoderException()\l+ DecoderException()\l+ getErrorCode()\l+ DecoderException()\l+ DecoderException()\l+ getErrorCode()\l+ DecoderException()\l+ DecoderException()\l+ getErrorCode()\l+ getErrorString()\l+ getErrorString()\l+ getErrorString()\l+ getErrorString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1decoder_1_1_decoder_exception.html",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "javazoom.jl.converter.WaveFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.converter.WaveFile\n|+ MAX_WAVE_CHANNELS\l|+ WaveFile()\l+ OpenForWrite()\l+ WriteData()\l+ Close()\l+ SamplingRate()\l+ BitsPerSample()\l+ NumChannels()\l+ NumSamples()\l+ OpenForWrite()\l+ CurrentFilePosition()\land 30 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{javazoom.jl.converter.RiffFile\n|+ DDC_SUCCESS\l+ DDC_FAILURE\l+ DDC_OUT_OF_MEMORY\l+ DDC_FILE_ERROR\l+ DDC_INVALID_CALL\l+ DDC_USER_ABORT\l+ DDC_INVALID_FILE\l+ RFM_UNKNOWN\l+ RFM_WRITE\l+ RFM_READ\l# fmode\l|+ RiffFile()\l+ CurrentFileMode()\l+ Open()\l+ Write()\l+ Write()\l+ Write()\l+ Write()\l+ Write()\l+ Read()\l+ Expect()\land 46 more...\l+ FourCC()\l+ FourCC()\l+ FourCC()\l+ FourCC()\l# Seek()\l# Seek()\l# Seek()\l# Seek()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1converter_1_1_riff_file.html",tooltip=" "];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #file" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{RandomAccessFile\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

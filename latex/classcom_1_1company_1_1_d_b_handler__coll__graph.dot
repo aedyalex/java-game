@@ -1,0 +1,7 @@
+digraph "com.company.DBHandler"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{com.company.DBHandler\n|~ stmt\l~ pstm\l~ rs\l|+ updateMusic()\l+ getMusic()\l+ updateAudio()\l+ getAudio()\l+ saveGame()\l+ getLevel()\l+ getInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Clasa care se ocupa cu gestiunea bazei de date."];
+}

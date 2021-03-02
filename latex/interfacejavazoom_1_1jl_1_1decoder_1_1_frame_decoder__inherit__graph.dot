@@ -1,0 +1,14 @@
+digraph "javazoom.jl.decoder.FrameDecoder"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Frame\lDecoder\n||+ decodeFrame()\l+ decodeFrame()\l+ decodeFrame()\l+ decodeFrame()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node2 [label="{javazoom.jl.decoder.Layer\lIDecoder\n|~ filter2\l# stream\l# header\l# filter1\l# buffer\l# which_channels\l# mode\l# num_subbands\l# subbands\l# crc\l|+ LayerIDecoder()\l+ create()\l+ decodeFrame()\l+ LayerIDecoder()\l+ create()\l+ decodeFrame()\l+ LayerIDecoder()\l+ create()\l+ decodeFrame()\l+ LayerIDecoder()\l+ create()\l+ decodeFrame()\l# createSubbands()\l# readAllocation()\l# readScaleFactorSelection()\l# readScaleFactors()\l# readSampleData()\l# createSubbands()\l# readAllocation()\l# readScaleFactorSelection()\l# readScaleFactors()\l# readSampleData()\land 10 more...\l}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{javazoom.jl.decoder.Layer\lIIDecoder\n||+ LayerIIDecoder()\l+ LayerIIDecoder()\l+ LayerIIDecoder()\l+ LayerIIDecoder()\l# createSubbands()\l# readScaleFactorSelection()\l# createSubbands()\l# readScaleFactorSelection()\l# createSubbands()\l# readScaleFactorSelection()\l# createSubbands()\l# readScaleFactorSelection()\l}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node4 [label="{javazoom.jl.decoder.Layer\lIIIDecoder\n|+ scalefac_buffer\l+ sftable\l+ pretab\l+ two_to_negative_half_pow\l+ t_43\l+ io\l+ TAN12\l+ win\l+ nr_of_sfb_block\l~ d43\l~ filter2\l~ x\l~ y\l~ v\l~ w\l~ is_pos\l~ is_ratio\l~ tsOutCopy\l~ rawout\l|+ LayerIIIDecoder()\l+ seek_notify()\l+ decodeFrame()\l+ decode()\l+ inv_mdct()\l+ LayerIIIDecoder()\l+ seek_notify()\l+ decodeFrame()\l+ decode()\l+ inv_mdct()\land 10 more...\l~ reorder()\l~ reorder()\l~ reorder()\l~ reorder()\l}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

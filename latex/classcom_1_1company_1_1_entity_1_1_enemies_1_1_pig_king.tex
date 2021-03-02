@@ -1,0 +1,50 @@
+\hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king}{}\doxysection{com.\+company.\+Entity.\+Enemies.\+Pig\+King Class Reference}
+\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king}\index{com.company.Entity.Enemies.PigKing@{com.company.Entity.Enemies.PigKing}}
+
+
+Cel mai puternic inamic, eroul trebuie sa se confrunte cu acesta in nivelul 2. Pe langa patrula Pig-\/ului, acest inamic poate sa urmareasca pozitia jucatorului, astfel urmarindu-\/l Are cele mai multe puncte de viata.  
+
+
+
+
+Inheritance diagram for com.\+company.\+Entity.\+Enemies.\+Pig\+King\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+company.\+Entity.\+Enemies.\+Pig\+King\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a059e6d1efc163b0b978d2c4dbe6b1ce1}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a059e6d1efc163b0b978d2c4dbe6b1ce1}} 
+\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a059e6d1efc163b0b978d2c4dbe6b1ce1}{Pig\+King}} (\mbox{\hyperlink{classcom_1_1company_1_1_tile_map_1_1_tile_map}{Tile\+Map}} tm)
+\begin{DoxyCompactList}\small\item\em Constructorul clasei \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king}{Pig\+King}}, initializeaza parametrii fizici(cei necesari pentru a reprezenta obiectul pe ecran), imaginile folosite la animatie, flaguri si altii. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_aee9199cb6f4cd288b7877e643342da70}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_aee9199cb6f4cd288b7877e643342da70}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_aee9199cb6f4cd288b7877e643342da70}{Interaction\+With\+Player}} (\mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_player}{Player}} p)
+\begin{DoxyCompactList}\small\item\em Aceasta metoda este specifica Pig\+King-\/ulul. Verifica daca eroul este in preajma inamicului, si determina orientarea acestuia din urma spre jucator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ae5715a794292a784a29c7b395ace98f0}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ae5715a794292a784a29c7b395ace98f0}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ae5715a794292a784a29c7b395ace98f0}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza flaguri si animatii pentru \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king}{Pig\+King}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ad98263e841ec0c726c094e7a28d79194}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ad98263e841ec0c726c094e7a28d79194}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ad98263e841ec0c726c094e7a28d79194}{draw}} (Graphics2D g)
+\begin{DoxyCompactList}\small\item\em Deseneaza inamicul cat timp este in viata. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a117d8e6fe90197a217284c645f055f60}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a117d8e6fe90197a217284c645f055f60}} 
+void \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a117d8e6fe90197a217284c645f055f60}{hit}} (int damage)
+\begin{DoxyCompactList}\small\item\em verifica daca inamicul a suferit pagube \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a9e688e732d6ee233cbefe463bde17857}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a9e688e732d6ee233cbefe463bde17857}} 
+Rectangle \mbox{\hyperlink{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_a9e688e732d6ee233cbefe463bde17857}{get\+Rectangle}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza dreptughiul de coliziune. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ab05f88e26ee8a9f1430692557df6a50e}\label{classcom_1_1company_1_1_entity_1_1_enemies_1_1_pig_king_ab05f88e26ee8a9f1430692557df6a50e}} 
+int {\bfseries range\+Of\+Vision} = 300
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cel mai puternic inamic, eroul trebuie sa se confrunte cu acesta in nivelul 2. Pe langa patrula Pig-\/ului, acest inamic poate sa urmareasca pozitia jucatorului, astfel urmarindu-\/l Are cele mai multe puncte de viata. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/company/\+Entity/\+Enemies/Pig\+King.\+java\end{DoxyCompactItemize}

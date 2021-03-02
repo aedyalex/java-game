@@ -1,0 +1,11 @@
+digraph "javazoom.jl.player.PlayerApplet"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.player.Player\lApplet\n|+ AUDIO_PARAMETER\l|+ setFileName()\l+ getFileName()\l+ init()\l+ start()\l+ stop()\l+ destroy()\l+ run()\l+ setFileName()\l+ getFileName()\l+ init()\land 18 more...\l# getAudioDevice()\l# getAudioStream()\l# getAudioFileName()\l# getAudioURL()\l# stopPlayer()\l# play()\l# createPlayerThread()\l# getAudioDevice()\l# getAudioStream()\l# getAudioFileName()\land 18 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Applet\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Runnable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

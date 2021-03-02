@@ -1,0 +1,7 @@
+digraph "com.company.GameState.GameStateManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{com.company.GameState.Game\lStateManager\n|+ currentState\l+ currentLevel\l+ NUMGAMESTATES\l+ HELP\l+ PAUSESTATE\l+ SETTINGSTATE\l+ GAMEOVERSTATE\l+ WINSTATE\l+ MENUSTATE\l+ LEVEL1STATE\l+ LEVEL2STATE\l|+ GameStateManager()\l+ loadState()\l+ setState()\l+ getState()\l+ getLevel()\l+ update()\l+ draw()\l+ musicTurn()\l+ keyPressed()\l+ keyReleased()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Clasa care gestioneaza starile pe parcursul gameplay-ului."];
+}

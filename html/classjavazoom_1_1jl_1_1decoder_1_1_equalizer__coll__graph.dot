@@ -1,0 +1,8 @@
+digraph "javazoom.jl.decoder.Equalizer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.decoder.Equalizer\n|+ BAND_NOT_PRESENT\l|+ Equalizer()\l+ Equalizer()\l+ Equalizer()\l+ setFrom()\l+ setFrom()\l+ setFrom()\l+ reset()\l+ getBandCount()\l+ setBand()\l+ getBand()\land 30 more...\l~ getBandFactors()\l~ getBandFactor()\l~ getBandFactors()\l~ getBandFactor()\l~ getBandFactors()\l~ getBandFactor()\l~ getBandFactors()\l~ getBandFactor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +PASS_THRU_EQ" ,arrowhead="odiamond",fontname="Helvetica"];
+}

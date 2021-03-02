@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="com.company.GameState.Game\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_game_state.html",tooltip="Clasa generica care descrie o stare a jocului."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="com.company.GameState.Auxiliary.\lHelpState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_auxiliary_1_1_help_state.html",tooltip="Reprezinta stare care se ocupa de informarea jucatorului cu privire la poveste si butoanele utile."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.company.GameState.Auxiliary.\lMenuState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_auxiliary_1_1_menu_state.html",tooltip="Reprezinta stare care se ocupa de prezentarea optiunilor de start."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.company.GameState.Auxiliary.\lPauseState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_auxiliary_1_1_pause_state.html",tooltip="Reprezinta stare care se ocupa de punerea jocului pe pauza si alte optiuni."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.company.GameState.Auxiliary.\lSettingsState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_auxiliary_1_1_settings_state.html",tooltip="Reprezinta stare care se ocupa de setarile jocului."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.company.GameState.Game\lOverState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_game_over_state.html",tooltip="Descrie starea in cazul in care jucatorul pierde."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.company.GameState.Levels.\lLevel1State",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_levels_1_1_level1_state.html",tooltip="Clasa responsabila de gestiunea tuturor mecanismelor din primul nivel."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.company.GameState.Levels.\lLevel2State",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_levels_1_1_level2_state.html",tooltip="Clasa responsabila de gestiunea tuturor mecanismelor din al doilea nivel."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.company.GameState.Win\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_win_state.html",tooltip="Descrie starea in cazul in care jucatorul termina ultimul nivel."];
+}

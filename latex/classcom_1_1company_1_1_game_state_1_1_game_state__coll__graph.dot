@@ -1,0 +1,24 @@
+digraph "com.company.GameState.GameState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{com.company.GameState.Game\lState\n||+ update()\l+ draw()\l+ keyPressed()\l+ keyReleased()\l+ musicTurn()\l+ audioTurn()\l+ saveStatus()\l+ sound()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Clasa generica care descrie o stare a jocului."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #gsm" ,arrowhead="odiamond"];
+  Node2 [label="{com.company.GameState.Game\lStateManager\n|+ currentState\l+ currentLevel\l+ NUMGAMESTATES\l+ HELP\l+ PAUSESTATE\l+ SETTINGSTATE\l+ GAMEOVERSTATE\l+ WINSTATE\l+ MENUSTATE\l+ LEVEL1STATE\l+ LEVEL2STATE\l|+ GameStateManager()\l+ loadState()\l+ setState()\l+ getState()\l+ getLevel()\l+ update()\l+ draw()\l+ musicTurn()\l+ keyPressed()\l+ keyReleased()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_game_state_manager.html",tooltip="Clasa care gestioneaza starile pe parcursul gameplay-ului."];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #tileMap" ,arrowhead="odiamond"];
+  Node3 [label="{com.company.TileMap.TileMap\n||+ TileMap()\l+ loadTiles()\l+ loadMap()\l+ getTileSize()\l+ getx()\l+ gety()\l+ getWidth()\l+ getHeight()\l+ getType()\l+ setTween()\l+ setPosition()\l+ draw()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_tile_map_1_1_tile_map.html",tooltip="Clasa care creeaza si gestioneaza harta."];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #hud" ,arrowhead="odiamond"];
+  Node4 [label="{com.company.Entity.HUD\n||+ HUD()\l+ update()\l+ draw()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_h_u_d.html",tooltip="Descrie Heads Up Display: status bar, animatia pentru viata."];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #Player" ,arrowhead="odiamond"];
+  Node5 [label="{com.company.Entity.Player\n||+ Player()\l+ getNextLevel()\l+ getHealth()\l+ getMaxHealth()\l+ getAnimation()\l+ getAction()\l+ setScratching()\l+ setDoorIn()\l+ getFinished()\l+ setHealth()\land 19 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_player.html",tooltip="Descrie propietatile jucatorului si ce poate face acesta. De asemenea se stabileste interactiunea juc..."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node6 [label="{com.company.Entity.MapObject\n|# tileSize\l# xmap\l# ymap\l# x\l# y\l# dx\l# dy\l# width\l# height\l# cwidth\land 25 more...\l|+ MapObject()\l+ intersects()\l+ getRectangle()\l+ calculateCorners()\l+ checkTileMapCollision()\l+ getx()\l+ gety()\l+ getdx()\l+ getWidth()\l+ getHeight()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_map_object.html",tooltip="Clasa care descrie comportamentul fiecarei entitati in raport cu harta. Orice entitate de pe ecran es..."];
+  Node3 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #tileMap" ,arrowhead="odiamond"];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #animation" ,arrowhead="odiamond"];
+  Node7 [label="{com.company.Entity.Animation\n||+ Animation()\l+ setFrames()\l+ setDelay()\l+ setFrame()\l+ update()\l+ getFrame()\l+ getImage()\l+ hasPlayedOnce()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_entity_1_1_animation.html",tooltip="Aceasta clasa este responsabila de gestiunea animatiilor: initializare, set/get frame,..."];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #ps" ,arrowhead="odiamond"];
+  Node8 [label="{com.company.GameState.Player\lSaver\n||+ PlayerSaver()\l+ saveState()\l+ getState()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_game_state_1_1_player_saver.html",tooltip="Clasa incapsuleaza Player-ul cu scopul e a retine informatii despre el si de a le folosi la trecerea ..."];
+  Node9 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #dbh" ,arrowhead="odiamond"];
+  Node9 [label="{com.company.DBHandler\n|~ stmt\l~ pstm\l~ rs\l|+ updateMusic()\l+ getMusic()\l+ updateAudio()\l+ getAudio()\l+ saveGame()\l+ getLevel()\l+ getInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_d_b_handler.html",tooltip="Clasa care se ocupa cu gestiunea bazei de date."];
+}

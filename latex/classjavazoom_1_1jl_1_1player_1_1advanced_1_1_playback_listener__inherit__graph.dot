@@ -1,0 +1,11 @@
+digraph "javazoom.jl.player.advanced.PlaybackListener"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{javazoom.jl.player.advanced.\lPlaybackListener\n||+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node2 [label="{com.company.Audio.AudioPlayer\n||+ AudioPlayer()\l+ run()\l+ stop()\l+ resume()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1company_1_1_audio_1_1_audio_player.html",tooltip="Clasa aceasta ne permite sa rulam continut audio in timpul rularii jocului Metodele acesteia constau ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{javazoom.jl.player.advanced.jlap.\lInfoListener\n||+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l+ playbackStarted()\l+ playbackFinished()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjavazoom_1_1jl_1_1player_1_1advanced_1_1jlap_1_1_info_listener.html",tooltip=" "];
+}
